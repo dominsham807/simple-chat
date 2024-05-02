@@ -47,7 +47,7 @@ const Login = () => {
                         />
                     </div>
                     <Link to='/signup' className='text-sm text-white hover:underline hover:text-blue-200 mt-2 inline-block py-1 transition-colors duration-150'>
-                        {"Don't"} have an account?
+                        {"Don't"} have an account? Click here to signup
                     </Link>
 
                     <div>

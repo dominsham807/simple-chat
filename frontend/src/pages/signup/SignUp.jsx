@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import GenderCheckbox from './GenderCheckbox'
-import useSignup from '../../hooks/useSignup'
+import useSignup from '../../hooks/useSignup.js'
 
 const SignUp = () => {
     const [formInputs, setFormInputs] = useState({
@@ -97,7 +97,7 @@ const SignUp = () => {
                     <GenderCheckbox onRadioChange={handleRadioChange} selectedGender={formInputs.gender} />
 
                     <Link to='/login' className='text-sm text-white hover:underline hover:text-blue-200 mt-2 inline-block py-1 transition-colors duration-150'>
-                        Already have an account?
+                        Already have an account? Click here to login
                     </Link>
 
                     <div>
